@@ -1,0 +1,47 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+padding-top: 20px;
+padding-left: 20px;
+font-weight: 700;
+font-size: 46px;
+
+}
+form{
+padding-top: 5px;
+padding-left: 20px;
+}
+#result{
+    font-size: 26px;
+    padding-left: 20px;
+    border: 1px solid #000000;
+    padding: 30px;
+}
+input{
+    height: 20px;
+    width:250px;
+    border: 1px solid #000000;
+    padding: 2px;
+}
+button{
+    margin-left: 10px;
+    width: 80px;
+    height: 24px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: gray;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    padding: 2px;
+    
+}
+img{
+    height: 150px;
+    margin-left: 100px;
+}

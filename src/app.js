@@ -5,7 +5,7 @@ const geocode = require('./utils/geo.js')
 const forecast = require('./utils/forecast')
 
 const public = path.join(__dirname ,'../public')
-const view = path.join(__dirname ,'./views')
+const view = path.join(__dirname ,'../views')
 const partial = path.join(__dirname ,'./views/partial')
 
 const app = express()

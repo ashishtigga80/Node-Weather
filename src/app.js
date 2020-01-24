@@ -9,7 +9,7 @@ const view = path.join(__dirname ,'./views')
 const partial = path.join(__dirname ,'./views/partial')
 
 const app = express()
-
+const port = process.env.PORT || 3000
 app.set('view engine', 'hbs')
 hbs.registerPartials(partial)
 app.use(express.static(public))
@@ -39,4 +39,4 @@ app.get('*', (req, res) => {
      res.render('error',undefined)
 })
 
-app.listen(3000, () => {})
+app.listen(port, () => {console.log('Running!')})

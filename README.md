@@ -1,3 +1,3 @@
 # Node-Weather
-A simple website for getting weather forecast.
-Build using Node js, express etc
+A basic website for weather forecast
+using Nodejs, express.
